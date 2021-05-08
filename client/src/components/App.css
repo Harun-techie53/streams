@@ -1,0 +1,110 @@
+.container{
+    margin-top: 5%;
+}
+
+.navbar__link{
+    text-decoration: none;
+    color: #ccc;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 1.09rem;
+}
+
+.navbar__link:hover{
+    color: tomato;
+}
+
+.googleAuth__button{
+    margin-left: 75%;
+}
+
+.form_component{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.form_container{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.form_container > h2{
+    font-family: sans-serif;
+    color: rgb(64, 64, 187);
+}
+
+.form_inputElem{
+    padding: 8px;
+}
+
+.form_label{
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.form_btnGroup{
+    margin-top: 10px;
+}
+
+.form_btn{
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 8px;
+    font-family: sans-serif;
+    background-color: rgba(64, 14, 201, 0.87);
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 530;
+    color: white;
+}
+
+.form_errors{
+    color: tomato;
+    padding: 8px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.form_errors > span {
+    margin-left: 5px;
+}
+
+.stream_icon{
+    align-self: center;
+    margin-right: 30px;
+}
+
+.stream_list{
+    margin-left: 10%;
+    padding: 20px;
+    width: 70%;
+    border: 2px solid #f4f4f4;
+    background-color: rgba(255, 99, 71, 0.767);
+    border-radius: 5px;
+    border: none;
+
+}
+
+.stream_btnGroup{
+    align-self: center;
+}
+
+.stream_header{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.stream_text{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.streamDelete{
+    position: relative;
+    z-index: -10;
+}
+
+
