@@ -1,3 +1,4 @@
+//This is a react component
 import React from 'react';
 
 const Streamers = ({match}) => {
